@@ -11,9 +11,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .open-sans-normal {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
+
 </head>
 
-<body class="">
+<body class="open-sans-normal">
     <!-- navbar style started here  -->
     <header class="max-w-[1140px] mx-auto">
         <nav class=" flex justify-between items-center">
@@ -48,7 +62,7 @@
         <section class="text-center mb-25 px-3 max-w-[1140px] mx-auto">
             <h1 class="text-4xl font-bold h-12"><span class="text-[#E95A08]">Our</span> Plants</h1>
             <p class=" font-normal px-2 mb-5">Indulge your senses with the beauty and fragrance of our fresh
-                flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                flower shop. From<br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5">
                 <!-- card -1  -->
                 <div class="card mx-auto">
@@ -113,7 +127,8 @@
             <div class="grid md:grid-cols-2 mb-10 max-w-[1140px] mx-auto">
                 <div class="relative">
                     <img class="w-ful" src="assets/flower-store.png" alt="">
-                    <div class=""><img class="absolute md:top-[-120px] md:right-[-50px] h-70 invisible md:visible"
+                    <div class=""><img
+                            class="animate-spin absolute md:top-[-120px] md:right-[-50px] h-70 invisible md:visible"
                             src="assets/trusted-badge.png" alt=""></div>
                 </div>
                 <div class="px-4">
@@ -136,19 +151,22 @@
             </div>
         </section>
         <!-- Latest Deal Section started here  -->
-        <section>
+        <section class="text-center">
+            <h1 class="text-4xl font-bold h-12"><span class="text-[#E95A08]">Latests</span> Deals</h1>
+            <p class=" font-normal px-2 mb-5">Indulge your senses with the beauty and fragrance of our fresh
+                flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             <div class="deal-container md:flex gap-10 max-w-[1140px] mx-auto my-20">
                 <div class="deal-left">
                     <div class="2-item ">
-                        <div class="1-item mb-5 text-white relative">
+                        <div class="mb-5 text-white relative">
                             <img class="w-full" src="assets/deal-bloom.png" alt="">
-                            <div class="absolute font-bold top-[90px] left-[50px]">
+                            <div class="absolute font-bold opacity-100 top-[90px] left-[50px]">
                                 <h2 class="text-2xl ">60% Off ! Bloom Plant</h2>
                                 <a class="underline ml-20 hover:text-amber-300" href="">Shop Now</a>
                             </div>
 
                         </div>
-                        <div class="1-item mb-5 text-white relative">
+                        <div class="mb-5 text-white relative">
                             <img class="w-full" src="assets/deal-bloom.png" alt="">
                             <div class="absolute font-bold top-[90px] left-[60px]">
                                 <h2 class="text-2xl ">30% Off ! Ana Plant</h2>
@@ -162,7 +180,7 @@
                     <div class="1-item mb-5 text-white relative">
                         <img class="w-full" src="assets/deal-zabo.png" alt="">
                         <div class="absolute font-bold top-[100px] left-[100px] md:top-[200px] md:left-[200px] block">
-                            <h2 class="text-2xl ">25% Off ! Rose Plant</h2>
+                            <h2 class="text-2xl">25% Off ! Rose Plant</h2>
                             <a class="underline ml-20 hover:text-amber-300" href="">Shop Now</a>
                         </div>
 
@@ -171,7 +189,7 @@
             </div>
         </section>
         <!-- join the color branch section started here  -->
-        <section class=" max-w-[1440px] mx-auto bg-[url(/assets/new.png)] py-40">
+        <section class="mx-auto bg-[url(/assets/new.png)] py-40">
             <div class="join-section text-center text-white">
                 <h2 class="text-5xl my-10">Join the colorful Bunch</h2>
                 <input class="px-8 py-2 md:px-15 md:py-2 lg:px-25 lg:py-2 bg-white text-black" type="email"
@@ -208,10 +226,10 @@
         </div>
         <div class="items md:mt-10">
             <ul class="flex items-center justify-center gap-5 ml-15 pt-10">
-                <a href=""><img src="assets/icon-linkedin.png" alt=""></a>
-                <a href=""><img src="assets/icon-twitter.png" alt=""></a>
-                <a href=""><img src="assets/icon-facebook.png" alt=""></a>
-                <a href=""><img src="assets/icon-youtube.png" alt=""></a>
+                <a href="https://www.linkedin.com/"><img src="assets/icon-linkedin.png" alt=""></a>
+                <a href="https://x.com/i/flow/login"><img src="assets/icon-twitter.png" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="assets/icon-facebook.png" alt=""></a>
+                <a href="https://www.Youtube.com/"><img src="assets/icon-youtube.png" alt=""></a>
 
             </ul>
         </div>
